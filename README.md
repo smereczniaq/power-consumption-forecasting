@@ -36,4 +36,4 @@ Utilizes the `calculate_rmse_for_k()` and `find_min_k()` methods to find the k v
 ## Results
 In the subsequent part of the code, the above-mentioned methods are utilized to determine the final value of k for which the model performs most accurately and the corresponding mean squared error for the test set. The optimal value of k, where the model performs the best, is k=5, and the mean squared error value is rmse = 903.0600272894059. As observed from the generated plot, the validation set exhibits the lowest error for k=5. Therefore, it can be concluded that the value of k to be used for evaluating the model on the test set is indeed k=5.
 
-![Plot](wykres_val.png)
+![Plot](images/wykres_val.png)
